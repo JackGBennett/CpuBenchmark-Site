@@ -69,8 +69,8 @@ function drawPage(data) {
     // Sort by payout (highest first)
 
     data.sort((a, b) =>
-        Number(b.cpuName) -
-        Number(a.cpuName)
+        Number(b.cpuMark -
+        Number(a.cpuMark)
     );
 
     const tbody =

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benchmark Data</title>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="sketch.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<h1>Desktop CPU Benchmark Data</h1>
+	<canvas id="CPUMarkChart"></canvas>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="chartscript.js"></script>
+  
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th>cpuName</th>
+        <th>cpuMark</th>
+        <th>threadMark</th>
+        <th>TDP</th>
+        <th>cores</th>
+		<th>socket</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <p>Data from <a href='https://artistpayout.com'>CPU Benchmark</a></p>
+</body>
+</html>

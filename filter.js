@@ -80,6 +80,7 @@ function drawPage(data) {
 
     const labels = [];
     const values = [];
+	const values2 = [];
 
     data.forEach(row => {
 
@@ -105,6 +106,9 @@ function drawPage(data) {
 
         values.push(
             Number(row.cpuMark)
+		
+        values2.push(
+            Number(row.threadMark)
         );
 
     });
@@ -130,6 +134,13 @@ function drawPage(data) {
                     data: values,
                     backgroundColor: '#4e79a7'
                 }]
+
+				datasets: [{
+                    label: 'CPU Thread Score',
+                    data: values,
+                    backgroundColor: '#FF0000'
+                }]
+				
             },
 
             options: {

@@ -118,7 +118,7 @@ function drawPage(data) {
     // Create chart
 
     chart = new Chart(
-        document.getElementById('BenchmarkChart'),
+        document.getElementById('CPUMarkChart'),
         {
             type: 'bar',
 

@@ -101,7 +101,7 @@ function drawPage(data) {
 
         // Build chart arrays
 
-        labels.push(row.Platform);
+        labels.push(row.cpuName);
 
         values.push(
             Number(row.cpuMark)

@@ -134,11 +134,9 @@ function drawPage(data) {
                     label: 'CPU Mark Score',
                     data: values,
                     backgroundColor: '#4e79a7'
-                }]
-
-				datasets: [{
+				},{
                     label: 'CPU Thread Score',
-                    data: values,
+                    data: values2,
                     backgroundColor: '#FF0000'
                 }]
 				

@@ -56,7 +56,7 @@ function filterData() {
     } else {
 
         filteredData = allData.filter(
-            row => row.Type === selected
+            row => row.socket === selected
         );
 
     }

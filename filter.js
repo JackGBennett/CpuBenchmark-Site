@@ -105,7 +105,8 @@ function drawPage(data) {
         labels.push(row.cpuName);
 
         values.push(
-            Number(row.cpuMark);
+			Number(row.cpuMark)
+		);
 		
         values2.push(
             Number(row.threadMark)
